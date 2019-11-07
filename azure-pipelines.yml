@@ -19,4 +19,4 @@ steps:
     repository: $(imageName)
     command: build
     Dockerfile: Dockerfile
-    containerRegistry: $(dockerRegistryServiceConnection)
+    containerRegistry: $(GeoffdockerServiceConnection)
